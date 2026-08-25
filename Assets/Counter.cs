@@ -11,7 +11,6 @@ public class CounterController : MonoBehaviour
     private bool isCounting = false;
     private Coroutine countingCoroutine;
 
-
     private void Start()
     {
         UpdateUI();
